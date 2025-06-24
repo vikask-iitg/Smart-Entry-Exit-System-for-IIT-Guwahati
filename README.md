@@ -9,15 +9,16 @@ This project implements an Automated Entry Exit System for IIT G (Indian Institu
 
 Features:
 
-ID Card Detection: Utilizes YOLO (You Only Look Once) to detect ID cards through a webcam in real-time.
-Image Processing: Processes and modifies the detected ID card image, aligning and cropping it for further analysis.
-Classification: Classifies the detected ID card into different types (e.g., College ID, Aadhar card, Driving license). Currently, implemented for College ID cards Model trained using CNN based Machine Learning Alogrithms.
-Face Recognition: Validates the identity of the ID holder by comparing the face on the ID card with a live picture captured using face recognition techniques.
-Text Extraction: Extracts text information from the ID card using pytesseract.
-Database Integration: Utilizes MySQL database for storing and retrieving ID card information and entry/exit logs.
-Frontend with Streamlit: Offers a user-friendly frontend powered by Streamlit for easy interaction and visualization of system functionalities.
-Automatic Logging: Records entry and exit information in an Excel sheet automatically based on even-odd logic.
-Notification System: Sends notifications to students outside the campus shortly before the gate closing time.
+- **ID Card Detection**: Utilizes YOLO (You Only Look Once) to detect ID cards through a webcam in real-time.  
+- **Image Processing**: Processes and modifies the detected ID card image, aligning and cropping it for further analysis.  
+- **Classification**: Classifies the detected ID card into different types (e.g., College ID, Aadhar card, Driving License). Currently implemented for College ID cards using CNN-based Machine Learning algorithms.  
+- **Face Recognition**: Validates the identity of the ID holder by comparing the face on the ID card with a live picture captured using face recognition techniques.  
+- **Text Extraction**: Extracts text information from the ID card using `pytesseract`.  
+- **Database Integration**: Utilizes MySQL database for storing and retrieving ID card information and entry/exit logs.  
+- **Frontend with Streamlit**: Offers a user-friendly frontend powered by Streamlit for easy interaction and visualization of system functionalities.  
+- **Automatic Logging**: Records entry and exit information in an Excel sheet automatically based on even-odd logic.  
+- **Notification System**: Sends notifications to students outside the campus shortly before the gate closing time.
+
 Installation:
 
     Clone the repository:
